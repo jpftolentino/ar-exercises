@@ -12,12 +12,18 @@ puts "----------"
 @store1.employees.create(
     first_name: "Khurram", 
     last_name: "Virani", 
-    hourly_rate: 60
+    hourly_rate: 700
+)
+
+@store2.employees.create(
+    first_name: "Khurram", 
+    last_name: "Virani", 
+    hourly_rate: 30
 )
 
 1.upto(10) do
     @store1.employees.create(
-        first_name: Faker::Name.first_name,
+        first_name: Faker::DragonBall.character,
         last_name: Faker::Name.last_name,
         hourly_rate: Faker::Number.between(40,60)
     )

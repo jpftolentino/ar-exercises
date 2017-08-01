@@ -5,3 +5,4 @@ gem 'pry' # for debugging
 gem 'pg'
 gem 'activerecord'
 gem 'postgresql'
+gem 'faker'
